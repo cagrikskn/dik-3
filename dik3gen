@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class ilk {
+    public static void main(String[] args) {
+
+      Scanner input= new Scanner(System.in);
+      double a,b,c;
+        System.out.println("a kenarını girin:"  );
+        a= input.nextDouble();
+        System.out.println("b kenarını girin:" );
+        b= input.nextDouble();
+        System.out.println( "c kenarını girin:" );
+        c= input.nextDouble();
+        double cevre= (a + b +c)/2;
+       double alan = cevre*(cevre-a)*(cevre-b)*(cevre-c);
+        System.out.println("alan:" +alan);
+        //förmül alan bulma da hatalı ama verilen förmül o diye öyle yapıldı
